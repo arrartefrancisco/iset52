@@ -30,7 +30,7 @@ LinkNoticias.addEventListener("click", () => {
 LinkAlumnos.addEventListener("click", () => {
   NoticiasContent.style.display = "none";
   CarreraContent.style.display = "none";
-  AlumnosContent.style.display = "Flex";
+  AlumnosContent.style.display = "Flex!Important";
   EscuelaContent.style.display = "none";
 });
 
