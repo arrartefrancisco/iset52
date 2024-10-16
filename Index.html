@@ -1,0 +1,508 @@
+<!DOCTYPE html >
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISET 52</title>
+    <link rel="stylesheet" href="Style.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTS -->
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Merriweather Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="m-0">
+    <header class="background-dark py-4">
+      <!--
+      <a id="icono" class="mr-5" href="#">
+        <img src="icoiset.jpg" alt="" />
+      </a>
+	-->
+      <nav class="text-center">
+        <a
+          href="#"
+          id="LinkNoticias"
+          class="nav-links text-decoration-none me-3"
+        >
+          Noticias
+        </a>
+        <a
+          href="#"
+          id="LinkCarrera"
+          class="nav-links text-decoration-none me-3"
+        >
+          Carrera
+        </a>
+        <a
+          href="#"
+          id="LinkAlumnos"
+          class="nav-links text-decoration-none me-3"
+        >
+          Alumnos
+        </a>
+        <a
+          href="#"
+          id="LinkEscuela"
+          class="nav-links text-decoration-none me-3"
+        >
+          Escuela
+        </a>
+      </nav>
+    </header>
+	<main class="container-fluid text-center pt-5 background-light">
+		<h2 id="NoticiasContent">NOTICIAS</h2>
+
+		<!--<h2 id="AlumnosContent" style="display: none">ALUMNOS</h2>-->
+		<div class="accordion flex-wrap align-baseline align-items-start justify-content-center" id="AlumnosContent" style="display:none;" >
+			<div class="accordion-item d-flex flex-column align-content-center justify-content-center align-items-center w-25 flex-wrap" id="FirstYear">
+
+				<h2> Materias Primer Año</h2>
+
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						BOTÁNICA Y FISIOLOGÍA VEGETAL
+					</button>
+				</h2>
+				<div id="collapseOneFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						La Botánica y fisiología vegetal introduce a los estudiantes a conocer los componentes del ambiente,
+						sus funciones e interrelaciones con el objetivo  de lograr una óptima utilización en diferentes diseños, urbanos, periurbanos y rurales
+						con la finalidad de mejorar la calidad de vida humana. Esta rama de la Biología estudia las plantas, específicamente las superiores bajo diferentes aspectos,
+						estos incluyen la descripción, clasificación, estudio de reproducción, fisiología y morfología.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						EDAFOLOGÍA Y CLIMATOLOGÍA
+					</button>
+				</h2>
+				<div id="collapseTwoFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Conocimientos sobre el clima y sus influyentes (radiación solar, temperatura, presión atmosférica, vientos, lluvia, nieve, granizo, humedad, etc.),
+						su relación con los vegetales. Estudio del suelo como ciencia, soporte y factor de crecimiento de los vegetales. Estudio del proceso de formación del suelo, relevamiento
+						y capacidad productiva para la utilización de los vegetales.
+
+						Objetivos: Conocimientos para caracterización de suelos, y clasificación de componentes climáticas, orientados a la determinación de los vegetales a usar adecuadamente en el diseño del paisaje.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						DISEÑO I
+					</button>
+				</h2>
+				<div id="collapseThreeFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Contraste. Campo visual. Figura fondo. Punto, línea y plano. Armonía, equilibrio, proporción y ritmo. Agrupamiento. Color. Ley del contraste. Boceto.
+						Objetivos: Lograr el conocimiento y la aplicación de los medios propios del lenguaje visual.
+						Desarrollar la percepción y la expresión en actividades de observación, análisis, experimentación e interpretación.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						VEGETACIÓN ORNAMENTAL I
+					</button>
+				</h2>
+				<div id="collapseFourFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						La asignatura Vegetación Ornamental I introduce al estudiante en el reconocimiento de las distintas especies arbóreas utilizadas en el diseño del paisaje.
+						Propone la investigación de las características y necesidades de la Vegetación Nativa y Exótica presentes en las composiciones paisajísticas, desde aspectos estéticos, funcionales y ecológicos.
+						Articula los contenidos botánico-morfológicos con los propios del diseño y la composición para plasmar los elementos vegetales de primera escala en el paisaje.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						HISTORIA DEL ARTE Y DEL PAISAJISMO
+					</button>
+				</h2>
+				<div id="collapseFiveFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Evolución de los estilos jardineros a través de la historia. Antecedentes históricos de los criterios actuales. Paisajes contemporáneos; la ciudad, su trazado, origen y evolución.
+						Objetivos: Relacionar el diseño del paisaje con las condiciones sociales, económicas, políticas, culturales y artísticas en donde se genera.
+						Comprender la importancia de la historia como instrumento del conocimiento social y como herramienta de diseño. Incorporar aspectos humanísticos a la formación del alumno.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixFirstYear" aria-expanded="false" aria-controls="collapseOne">
+						PRACTICA DE CULTIVOS E INSTALACIONES
+					</button>
+				</h2>
+				<div id="collapseSixFirstYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						El saber jardinero es tan indispensable para un Diseñador del Paisaje como el saber proyectar. El conocimiento del sitio a intervenir sus características principales,
+						su ubicación geográfica y el estudio exhaustivo de la vegetación que se presenta, forman parte del comienzo de todo proceso de diseño.
+						Esta asignatura permite al alumno reconocer los distintos tipos de especies, sus potencialidades, sus funcionalidades, sus necesidades de multiplicación y crecimiento,
+						sus capacidades de desarrollo y sus valores ornamentales. También incorpora el estudio básico  de asoleamiento. Interpreta el uso de maquinaria pequeña y grande como así también
+						el uso de herramientas para las distintas prácticas que se desarrollan en todas las escalas del paisaje.
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="accordion-item d-flex flex-column align-content-center justify-content-center align-items-center w-25 flex-wrap" id="SecondYear">
+				<h2> Materias Segundo Año</h2>
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						DISEÑO II
+					</button>
+				</h2>
+				<div id="collapseOneSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						El contenido propuesto permite abordar las herramientas de diseño del paisaje, particulamente de la pequeña y mediana escala de intervención, tanto en el ámbito privado como el público.
+						El desarrollo de instrumentos de análisis y de técnicas de representación, forman parte del aprendizaje para la praxis proyectual.
+						La reflexión sobre la práctica del diseño, permite abordar “las miradas del mundo” que se ponen de manifiesto y que se encuentran atravesadas por debates que definen la cultura en sentido amplio.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						DISEÑO Y COMPUTACIÓN
+					</button>
+				</h2>
+				<div id="collapseTwoSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						El contenido propuesto permite reconocer la importancia de las herramientas digitales en el proceso de diseño del paisaje y su rol en la expresión gráfica de ideas y conceptos.
+						Para tal fin se abordan, a partir de clases teórico-prácticas, el desarrollo de: Photoshop, Autocad y Sketchup.
+						La pertinencia de cada herramienta, y su posible combinación, forman parte de los objetivos planteados.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						FITOPATOLOGÍA Y TERAPÉUTICA VEGETAL
+					</button>
+				</h2>
+				<div id="collapseThreeSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Nociones de patología vegetal. Enfermedades criptogámicas, bacterianas, virósicas, parasitarias, plagas animales, plagas de invernaderos.
+						Reconocimiento y diagnóstico. Medios preventivos, lucha biológica y química. Empleo adecuado de productos fitosanitarios. Enfermedades carenciales.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						VEGETACIÓN II
+					</button>
+				</h2>
+				<div id="collapseFourSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Vegetación argentina y regional. Guía identificatoria y descripciones botánicas. Características ornamentales sobresalientes.
+						Selección según sus atributos estéticos, funcionales y exigencias del hábitat. Conservación del paisaje natural. Importancia y defensa de la flora natural.
+						Fitogeografía. Flora autóctona. Plantaciones especiales. Cortinas de reparo.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						CONSTRUCCIONES E INSTALACIONES
+					</button>
+				</h2>
+				<div id="collapseFiveSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Elementos arquitectónicos del jardín. Escaleras. Muros. Terrazas. Bancos. Caminos. Esculturas. Cercos. Pérgolas. Invernaderos. Estanques.
+						Fuentes y cascadas. Piscinas. Zonas de juegos. Taludes. Canteros y macetería. Desniveles. Instalaciones de agua. Depósitos. Instalaciones de luz. Materiales y técnicas.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						ECOLOGÍA Y SOCIOLOGÍA
+					</button>
+				</h2>
+				<div id="collapseSixSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Equilibrio biológico. Conservación racional del ecosistema. Factores ecológicos en juego. Influencia del clima.
+						Distribución geográfica de las especies, interrelaciones. Plantas y animales. Conservación de las comunidades naturales y semi naturales.
+						Influencia de los componentes naturales sobre el comportamiento individual y colectivo.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSevenSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						CÉSPED Y RIEGO
+					</button>
+				</h2>
+				<div id="collapseSevenSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Estudio de los aspectos funcionales y ornamentales de los paños verdes. Tipos de césped. Características, suelos. Manejo y factores a controlar.
+						Lucha contra la maleza. extirpación. Productos químicos para su control. técnicas de aplicación. Toxicidad. Green. tipos y variedades. Construcciones.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEightSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						VEGETACIÓN ORNAMENTAL III
+					</button>
+				</h2>
+				<div id="collapseEightSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Arbustos. Setos. Enredaderas. Herbáceas y flores. Estudios de las variedades. plantas para pleno sol. Plantas para sombra.
+						Plantas para sitios húmedos, terrenos alcalinos, ácidos y salinos. De crecimiento rápido. Trepadoras. Macizos herbáceos. Acuáticas. Resistencia al frío.
+						Borduras. Tóxicas. Flores anuales. Flores de bulbos.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineSecondYear" aria-expanded="false" aria-controls="collapseOne">
+						TALLER DE DISEÑO
+					</button>
+				</h2>
+				<div id="collapseNineSecondYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Los contenidos de esta asignatura revisan determinados aspectos teóricos del Diseño, desde un ángulo que sea capaz de considerar simultáneamente tanto las herramientas perceptivas
+						(propias de toda disciplina sensorial), como las operativos (inherentes a una actividad reflexiva sobre la forma y el espacio).
+						En esa línea de pensamiento y acción, se aborda el Diseño del Paisaje como disciplina que planea entre el arte y la ciencia,
+						trazando una fina línea entre la imaginación y la memoria, incluyendo la ecología y la abstracción.
+						Asimismo, se pretende que cada alumno/a consolide las modalidades de confrontación y socialización de sus experiencias de conocimiento.
+						Y que adquiera una conciencia crítica de su actuación proyectual, a través de la autoevaluación.
+					</div>
+				</div>
+
+
+			</div>
+			<div class="accordion-item d-flex flex-column align-content-center justify-content-center align-items-center w-25 flex-wrap" id="ThirdYear">
+				<h2> Materias Tercer Año</h2>
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						PLANEAMIENTO URBANO Y REGIONAL
+					</button>
+				</h2>
+				<div id="collapseOneThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						La materia enfrenta al alumno con el espacio urbano y territorial, planteando la relación civis&urbis,  sustento básico de la ciudad, realidad construida,
+						que se proyecta en el territorio, pudiendo ser  intervenida. Los contenidos teórico-prácticos, permiten adquirir la instrumentación necesaria para  reconocer,
+						analizar y reflexionar sobre las formas urbanas, las estructuras que organizan la ciudad y  el territorio, las gestiones públicas y privadas enmarcadas en la
+						planificación a corto y largo plazo y  su consecuencia el paisaje urbano. Estos conocimientos, necesarios para el Diseñador del Paisaje, lo  definen,
+						lo caracterizan y lo cargan lo suficiente para acompañarlo en todo el proceso de diseño en  las distintas escalas de intervención, sea desde la globalidad hasta el sitio mismo de la propuesta.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						ADMINISTRACIÓN Y LEGISLACIÓN VIGENTE
+					</button>
+				</h2>
+				<div id="collapseTwoThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Redacción de memorias. Pliegos de condiciones. Presupuestos. Cálculos de costos estimativos. Libros de contabilidad de exigencia legal. Impuestos y sellados.
+						Legislación vigente sobre terrenos, medianeras y disposiciones municipales sobre medidas de retiro y distancias de plantación.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						EJECUCIÓN Y CONSERVACIÓN
+					</button>
+				</h2>
+				<div id="collapseThreeThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						La materia Ejecución y Conservación prepara al estudiante en la complejidad de las obras de Paisaje, desde la programación de la Ejecución hasta la planificación de su futuro Mantenimiento.
+						Al mismo tiempo, analiza la problemática de la Conservación del paisaje intervenido de valor histórico y patrimonial, comprendiendo su origen, evaluando su carácter y poniéndolo en valor,
+						programando y proyectando la conservación en el corto, mediano y largo plazo.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						TOPOGRAFÍA Y MAQUINARIAS
+					</button>
+				</h2>
+				<div id="collapseFourThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos: Relevamiento del terreno. Geodesia. Cartografía. Croquis y plano. Representación altimétrica. Geométrica y Trigonométrica. Medición. Límites. Desniveles.
+						Señalamiento. Dibujo a escala. Maquinaria de uso específico en jardinería. Elección y mantenimiento.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						DISEÑO III
+					</button>
+				</h2>
+				<div id="collapseFiveThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						El transcurrir en Diseño III permite a los estudiantes desarrollar la teoría y práctica del Proyecto de Paisaje de mediana a gran escala, desde el nivel de Anteproyecto.
+						Se reflexiona sobre los componentes del espacio público y las estrategias en su intervención. Conjuntamente se ensayan diversos formatos gráficos y de narrativa para
+						poder exponer y fundamentar los diseños pensados.
+						Se plantean ejercicios integrados con otras asignaturas para complementar los saberes y desarrollar un perfil profesional propio del futuro Diseñador Paisajista.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						PRACT. DE EJEC. DE JARDINES PÚBLICOS Y PRIVADOS
+					</button>
+				</h2>
+				<div id="collapseSixThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Lineamientos. Práctica de ejecución de jardines públicos y privados. Concreción de propuestas de anteproyecto. Resolución gráfica de sus componentes construidos.
+						Definición de la infraestructura para provisión de agua, desagües, riego e iluminación.
+					</div>
+				</div>
+
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSevenThirdYear" aria-expanded="false" aria-controls="collapseOne">
+						PROYECTO FINAL
+					</button>
+				</h2>
+				<div id="collapseSevenThirdYear" class="accordion-collapse collapse" data-bs-parent="#AlumnosContent">
+					<div class="accordion-body foreground-light fs-6">
+						Los contenidos de esta asignatura integran todos los saberes aprendidos durante la Carrera, en las cuatro Áreas que conforman el Plan de Estudio; a saber:
+						Diseño, Humanística, Tecnológica y Naturaleza.
+						Cada Investigación Proyectual se fundamenta en:  la interpretación técnico-sensible del sitio a intervenir en cada Proyecto;
+						la observación y el reconocimiento de situaciones resueltas en situaciones semejantes;  la propuesta de Diseños a partir de la información adquirida y la delineación de las estrategias.
+						Asimismo, se pretende que al concluir “Proyecto Final”, cada alumno/a comprenda los procesos lógicos de pensamiento, secuenciación y metas, para la elaboración de una propuesta alternativa,
+						a los fines de construir un nuevo Paisaje.
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+
+		<div id="EscuelaContent">
+			<div class="card" style="width: 18rem;">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Laprida 1557</li>
+					<li class="list-group-item">Rosario, CP 2000</li>
+					<li class="list-group-item">ARGENTINA</li>
+					<li class="list-group-item">Lunes a Viernes de 15:00 a 20:00</li>
+					<li class="list-group-item">(0341) 4721809</li>
+					<li class="list-group-item">iset52@gmail.com</li>
+				</ul>
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.3013609242015!2d-60.63716488838574!3d-32.95678075592532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab00243ded89%3A0xed3d03d0c71e079f!2sISET%2052.%20Escuela%20de%20dise%C3%B1o%20del%20paisaje!5e0!3m2!1sen!2sar!4v1728080105404!5m2!1sen!2sar"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+		</div>
+
+
+		<div class="accordion text-center" id="CarreraContent">
+			<div class="accordion-item">
+				<h2 class="accordion-header text-light">
+					<button class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							aria-expanded="false"
+							aria-controls="collapseOne">
+						Objetivo
+					</button>
+				</h2>
+				<div id="collapseOne"
+					 class="accordion-collapse collapse"
+					 data-bs-parent="#CarreraContent">
+					<div class="accordion-body foreground-light fs-6">
+						La carrera tiene como objetivo formar a futuros profesionales con
+						alcances para dise�ar, materializar y conservar distintos tipos de
+						espacios exteriores y espacios verdes, armonizando lo creativo con
+						lo t�cnico. Es un profesional habilitado para dise�ar todo tipo de
+						espacios exteriores: desde balcones, patios, terrazas, techos
+						verdes y jardines, hasta proyectos a gran escala como plazas y
+						parques p�blicos, �reas comunes de barrios cerrados, jardines
+						corporativos y planes de arbolado. TITULO: Cursadas y aprobadas
+						las 22 materias de la carrera �inclu�do el Proyecto Final-, se
+						obtiene el t�tulo de DISE�ADOR PAISAJISTA.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo"
+							aria-expanded="false"
+							aria-controls="collapseTwo">
+						Perfil Profesional
+					</button>
+				</h2>
+				<div id="collapseTwo"
+					 class="accordion-collapse collapse"
+					 data-bs-parent="#CarreraContent">
+					<div class="accordion-body background-dark">
+						<ul>
+							<li class="foreground-light fs-6">
+
+								Preservar los paisajes naturales y del medio que nos rodea.
+							</li>
+							<li class="foreground-light fs-6">
+								Integrar equipos t�cnicos que se aboquen al desarrollo de nuevos n�cleos de viviendas.
+							</li>
+							<li class="foreground-light fs-6">
+								Integrar equipos t�cnicos que se aboquen al desarrollo de
+								nuevos n�cleos de viviendas.
+							</li>
+							<li class="foreground-light fs-6">
+								Desarrollar, proyectar y ejecutar parquizaciones en �reas de
+								nuevos n�cleos de viviendas e industrias.
+							</li>
+							<li class="foreground-light fs-6">
+								Desarrollar proyectos p�blicos y privados en lo referente a
+								la parquizaci�n de los espacios verdes, arbolado urbano,
+								caminos y carreteras.
+							</li>
+							<li class="foreground-light fs-6">
+								Asesorar y colaborar con arquitectos en el desarrollo de
+								proyectos.
+							</li>
+							<li class="foreground-light fs-6">
+								Conocer las nuevas t�cnicas relacionadas con la conservaci�n
+								del medio ambiente, as� como el manejo de las maquinarias y
+								herramientas que se utilizan en la diagramaci�n y ejecuci�n
+								de obras relacionadas con la t�cnica de la parquizaci�n.
+							</li>
+							<li class="foreground-light fs-6">
+								Conocer las normas nacionales, provinciales y locales
+								vigentes en la materia.
+							</li>
+							<li class="foreground-light fs-6">
+								Conocer en profundidad los fundamentos de la vida vegetal,
+								su patolog�a y terap�utica adecuada.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</main>
+  </body>
+  <script src="Script.js"></script>
+</html>
+
+<!--
+  https://6cmytc.csb.app/
+-->
