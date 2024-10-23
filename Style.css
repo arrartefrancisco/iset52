@@ -42,7 +42,12 @@ btn-primary
 {
 	display: none;
 }
-
+.card
+{
+	color:transparent!important;
+	background-color:transparent!important;
+	border:none!important;
+}
 #Instagram
 {
 	display: block;
@@ -211,4 +216,5 @@ button.accordion-button::after
 {
 	content: none;
 }
+
 
