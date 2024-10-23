@@ -29,6 +29,10 @@ LinkCarrera.addEventListener("click", () => {
 	LinkCarrera.style.setProperty("color", "black");
 	LinkNoticias.style.setProperty("text-shadow","none");
 	LinkNoticias.style.setProperty("color", "#a6bf8c");
+	LinkAlumnos.style.setProperty("text-shadow","none");
+	LinkAlumnos.style.setProperty("color", "#a6bf8c");
+	LinkEscuela.style.setProperty("text-shadow","none");
+	LinkEscuela.style.setProperty("color", "#a6bf8c");
 	NoticiasContent.style.display = "none";
 	CarreraContent.style.display = "Block";
 	AlumnosContent.style.display = "none";
@@ -46,6 +50,10 @@ LinkNoticias.addEventListener("click", () => {
 	LinkNoticias.style.setProperty("color", "black");
 	LinkCarrera.style.setProperty("text-shadow","none");
 	LinkCarrera.style.setProperty("color", "#a6bf8c");
+	LinkAlumnos.style.setProperty("text-shadow","none");
+	LinkAlumnos.style.setProperty("color", "#a6bf8c");
+	LinkEscuela.style.setProperty("text-shadow","none");
+	LinkEscuela.style.setProperty("color", "#a6bf8c");
 	NoticiasContent.style.display = "Block";
 	CarreraContent.style.display = "none";
 	AlumnosContent.style.display = "none";
@@ -56,10 +64,17 @@ LinkNoticias.addEventListener("click", () => {
 	LinkPrimero.style.borderWidth = "0rem";
 	LinkSegundo.style.borderWidth = "0rem";
 	LinkTercero.style.borderWidth = "0rem";
-	
 });
 
 LinkAlumnos.addEventListener("click", () => {
+	LinkAlumnos.style.setProperty("text-shadow", "0.1rem 0.1rem 0.5rem #ffffff");
+	LinkAlumnos.style.setProperty("color", "black");
+	LinkCarrera.style.setProperty("text-shadow","none");
+	LinkCarrera.style.setProperty("color", "#a6bf8c");
+	LinkNoticias.style.setProperty("text-shadow","none");
+	LinkNoticias.style.setProperty("color", "#a6bf8c");
+	LinkEscuela.style.setProperty("text-shadow","none");
+	LinkEscuela.style.setProperty("color", "#a6bf8c");
 	NoticiasContent.style.display = "none";
 	CarreraContent.style.display = "none";
 	AlumnosContent.style.display = "Flex";
@@ -73,6 +88,14 @@ LinkAlumnos.addEventListener("click", () => {
 });
 
 LinkEscuela.addEventListener("click", () => {
+	LinkEscuela.style.setProperty("text-shadow", "0.1rem 0.1rem 0.5rem #ffffff");
+	LinkEscuela.style.setProperty("color", "black");
+	LinkCarrera.style.setProperty("text-shadow","none");
+	LinkCarrera.style.setProperty("color", "#a6bf8c");
+	LinkNoticias.style.setProperty("text-shadow","none");
+	LinkNoticias.style.setProperty("color", "#a6bf8c");
+	LinkAlumnos.style.setProperty("text-shadow","none");
+	LinkAlumnos.style.setProperty("color", "#a6bf8c");
 	NoticiasContent.style.display = "none";
 	CarreraContent.style.display = "none";
 	AlumnosContent.style.display = "none";
