@@ -60,8 +60,18 @@
 		</nav>
     </header>
 	<main class="container-fluid text-center pt-5 background-light h-100">
-		<h2 id="NoticiasContent">NOTICIAS</h2>
+		<div id="NoticiasContent" class="justify-content-center w-100 h-100 bg-success" style="display:flex;">
+			<div>
+				<a href="https://docs.google.com/document/d/1-r0KsKG3ziNMUrcKQ35FfR19ViiscfzHi3YwaX89hvM/edit?tab=t.0" target="_blank" class="text-decoration-none btn btn-primary background-dark">CORRELATIVIDADES</a>
+				<a href="https://drive.google.com/file/d/1nAeUkTUKrRT-OMBk6BTx3yJMxz_kdePB/view?usp=sharing" target="_blank" class="text-decoration-none btn btn-primary background-dark">HORARIOS</a>
+				<a href="https://docs.google.com/spreadsheets/d/1sQ9RzBFldxiruHJuyX3DlNdZMlMpmKkCgrKE3vPOehE/edit?usp=sharing" target="_blank" class="text-decoration-none btn btn-primary background-dark">CLAVES CLASSROOM</a>
+				<h2>NOVEDADES</h2>
+				<iframe src="Noticias ISET 52.pdf" style="border: none; width: 70vw; height: 70vh;"></iframe>
+			</div>
+			
 
+
+		</div>
 
 		<nav class="nav justify-content-center text-decoration-none" id="AlumnosContent" style="display:none;">
 			<a class="nav-item nav-links text-decoration-none px-3 py-2" id="LinkPrimero" style="background-color: #284d34; color: #a6bf8c">
@@ -73,7 +83,6 @@
 			<a class="nav-item nav-links text-decoration-none px-3 py-2" id="LinkTercero" style="background-color: #284d34; color: #a6bf8c">
 				Tercer Año
 			</a>
-			<!--<a href="https://docs.google.com/spreadsheets/d/1sQ9RzBFldxiruHJuyX3DlNdZMlMpmKkCgrKE3vPOehE/edit?usp=sharing" target="_blank">HORARIOS</a>-->
 		</nav>
 
 
@@ -87,7 +96,6 @@
 				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalOrnamental">VEGETACIÓN ORNAMENTAL I</a></li>
 				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalHistoria">HISTORIA DEL ARTE Y DEL PAISAJISMO</a></li>
 				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalCultivos">PRACTICA DE CULTIVOS E INSTALACIONES</a></li>
-				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalHorarios">HORARIOS</a></li>
 			</ul>
 		</div>
 
@@ -115,23 +123,6 @@
 				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalJardines">PRACTICA DE EJECUCIÓN DE JARDINES PÚBLICOS Y PRIVADOS</a></li>
 				<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalFinal">PROYECTO FINAL</a></li>
 			</ul>
-		</div>
-
-		<div class="modal fade" id="ModalHorarios" tabindex="-1" aria-labelledby="ModalHorarios" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						La Botánica y fisiología vegetal introduce a los estudiantes a conocer los componentes del ambiente,
-						sus funciones e interrelaciones con el objetivo  de lograr una óptima utilización en diferentes diseños, urbanos, periurbanos y rurales
-						con la finalidad de mejorar la calidad de vida humana. Esta rama de la Biología estudia las plantas, específicamente las superiores bajo diferentes aspectos,
-						estos incluyen la descripción, clasificación, estudio de reproducción, fisiología y morfología.
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary background-dark" data-bs-dismiss="modal">Cerrar</button>
-						<a href="https://classroom.google.com/" target="_blank" class="btn btn-primary background-dark" style="font-family:poppins;">Classroom</a>
-					</div>
-				</div>
-			</div>
 		</div>
 
 		<div class="modal fade" id="ModalBotanica1" tabindex="-1" aria-labelledby="ModalBotanica1" aria-hidden="true">
@@ -496,16 +487,7 @@
 
 
 		<div id="EscuelaContent" class="justify-content-center">
-			<!--<div class="card">-->
 			<ul class="list-group list-group-flush">
-				<!--
-	<li class="list-group-item d-inline-flex justify-content-center align-items-center" style="width:25rem;height:3rem;">
-		<a href="https://www.instagram.com/escuela_paisajismo_rosario/" id="Instagram">
-			<i class="bi bi-instagram" style="font-size:2rem;"></i>
-			<p class="d-inline-flex" style="font-family: poppins;"> Instagram </p>
-		</a>
-	</li>
-	-->
 				<li class="list-group-item">
 					<a href="https://www.instagram.com/escuela_paisajismo_rosario/" class="btn btn-primary background-dark" target="_blank">
 						<i class="bi bi-instagram"></i>
@@ -520,33 +502,49 @@
 				</li>
 
 				<li class="list-group-item">
-					<a href="https://maps.app.goo.gl/P4ksdbrDADkMymWQ9" class="btn btn-primary background-dark" target="_blank">
+					<a href="#" class="btn btn-primary background-dark" data-bs-toggle="modal" data-bs-target="#ModalContacto">
 						<i class="bi bi-telephone"></i>
-						Lunes a Viernes de 15:00 a 20:00. (0341) 4721809. iset52@gmail.com
+						Contacto
 					</a>
 				</li>
 
 				<li class="list-group-item">
 					<a href="https://maps.app.goo.gl/P4ksdbrDADkMymWQ9" class="btn btn-primary background-dark" target="_blank">
 						<i class="bi bi-geo-alt"></i>
-						Laprida 1557. Rosario, CP 2000. Argentina
+						Como llegar
 					</a>
 				</li>
 
+				<div class="modal fade" id="ModalContacto" tabindex="-1" aria-labelledby="ModalContacto" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<strong>HORARIO: </strong>Lunes a Viernes de 15:00 a 20:00.
+								<br />
+								<strong>TELEFONO:</strong>(0341) 4721809.
+								<br />
+								<strong>EMAIL:</strong>iset52@gmail.com
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary background-dark" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<!--<li class="list-group-item"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalHorarios">HORARIOS</a></li>-->
 				<!--<li><i class="bi bi-instagram btn btn-primary"></i></li>-->
 				<!--
-	<li class="list-group-item">Laprida 1557</li>
-	<li class="list-group-item">Rosario, CP 2000</li>
-	<li class="list-group-item">ARGENTINA</li>
-	<li class="list-group-item">Lunes a Viernes de 15:00 a 20:00</li>
-	<li class="list-group-item">(0341) 4721809</li>
-	<li class="list-group-item">iset52@gmail.com</li>
-	<li class="list-group-item"><a href="https://maps.app.goo.gl/P4ksdbrDADkMymWQ9" class="btn btn-primary" target="_blank">Como llegar</a></li>
-	-->
+			<li class="list-group-item">Laprida 1557</li>
+			<li class="list-group-item">Rosario, CP 2000</li>
+			<li class="list-group-item">ARGENTINA</li>
+			<li class="list-group-item">Lunes a Viernes de 15:00 a 20:00</li>
+			<li class="list-group-item">(0341) 4721809</li>
+			<li class="list-group-item">iset52@gmail.com</li>
+			<li class="list-group-item"><a href="https://maps.app.goo.gl/P4ksdbrDADkMymWQ9" class="btn btn-primary" target="_blank">Como llegar</a></li>
+			-->
 			</ul>
 			<!--</div>-->
-
 			<!--
 
 		<div class="modal fade" id="ModalMapa" tabindex="-1" aria-labelledby="ModalMapa" aria-hidden="true">
