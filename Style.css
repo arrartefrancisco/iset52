@@ -196,3 +196,21 @@ button.accordion-button::after
 	}
 
 }
+
+.carousel-control-next, .carousel-control-prev
+{
+	position: fixed!important;
+	top: 50%!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content!important;
+	padding: 1rem!important;
+	text-align: center;
+	border: 0;
+	opacity: .5;
+	transition: opacity .15s ease;
+	height: fit-content;
+	background-color: black!important;
+	color:white;
+}
