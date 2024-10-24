@@ -1,3 +1,4 @@
+
 const LinkNoticias = document.querySelector("#LinkNoticias");
 const LinkCarrera = document.querySelector("#LinkCarrera");
 const LinkAlumnos = document.querySelector("#LinkAlumnos");
@@ -144,3 +145,4 @@ LinkTercero.addEventListener("click", () =>
 	LinkPrimero.style.borderWidth = "0rem";
 	LinkTercero.style.borderColor = "White";
 })
+
