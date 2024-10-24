@@ -214,11 +214,3 @@ button.accordion-button::after
 	background-color: black!important;
 	color:white;
 }
-
-.carousel-item > img
-{
-	border-width:0.25rem!important;
-	border-style:groove!important;
-	border-color:black;
-	border-radius: 1rem !important;
-}
